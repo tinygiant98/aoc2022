@@ -36,9 +36,6 @@ when isMainModule:
 
   #Part 1 - Max number of calories being held by any elf
   topElf(caloriesTotal)
-  #let maxIndex = maxIndex(caloriesTotal)
-  #echo fmt"Elf #{maxIndex - 1} is holding {caloriesTotal[maxIndex]} calories"
 
-  #Part 2 - Total number of calories being helf by the top
-  # three elves
+  #Part 2 - Total number of calories being helf by the top three elves
   topThree(caloriesTotal)
