@@ -6,7 +6,7 @@ import system/io, strutils, sequtils, strformat
 var
   caloriesTotal: seq[int]
   count: int
-  file = open(r"H:/projects/aoc2022/data/day1.txt", fmRead);
+  file = open(r"H:/projects/aoc2022/data/day01.txt", fmRead);
 
 proc topElf(calories: seq[int]) = 
   let maxIndex = maxIndex(calories)
