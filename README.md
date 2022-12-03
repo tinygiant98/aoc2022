@@ -6,5 +6,5 @@ Day 1:  Adding groups of numbers.  Pretty easy.
 
 Day 2:  Rock, paper, scissors.  Very un-graceful/brute force method to solve this one, cuz I was busy and didn't want to think too hard.
 
-Day 3:  Converting charcters to numbers, then manipulating those numbers.  Haven't had a lot of practice with advanced sequence iterators and manipulators, so this was interesting.
+Day 3:  Converting character sequences to numbers, then manipulating those numbers.  Haven't had a lot of practice with advanced sequence iterators and manipulators, so this was interesting.
 
