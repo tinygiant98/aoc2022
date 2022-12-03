@@ -1,6 +1,3 @@
-# Advent of Code, Day 1, Part 1
-# Add blocks of integers
-
 import system/io, strutils, sequtils, strformat
 
 var
