@@ -2,7 +2,7 @@ import system/io, strutils, strformat, sequtils
 
 var
   plays: seq[seq[string]]
-  file = open(r"H:/projects/aoc2022/data/day02.txt", fmRead);
+  file = open("data/day02.txt", fmRead);
 
 proc scoreGame(plays: seq[seq[string]]) =
   var

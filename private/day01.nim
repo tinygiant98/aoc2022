@@ -3,7 +3,7 @@ import system/io, strutils, sequtils, strformat
 var
   caloriesTotal: seq[int]
   count: int
-  file = open(r"H:/projects/aoc2022/data/day01.txt", fmRead);
+  file = open("data/day01.txt", fmRead);
 
 proc topElf(calories: seq[int]) = 
   let maxIndex = maxIndex(calories)
@@ -31,8 +31,5 @@ when isMainModule:
     caloriesTotal.add(count)
     count = 0
 
-  #Part 1 - Max number of calories being held by any elf
   topElf(caloriesTotal)
-
-  #Part 2 - Total number of calories being helf by the top three elves
   topThree(caloriesTotal)
