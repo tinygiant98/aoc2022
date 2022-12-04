@@ -8,3 +8,4 @@ Day 2:  Rock, paper, scissors.  Very un-graceful/brute force method to solve thi
 
 Day 3:  Converting character sequences to numbers, then manipulating those numbers.  Haven't had a lot of practice with advanced sequence iterators and manipulators, so this was interesting.
 
+Day 4:  4am after 15 hours of work and have to be back at work in eight hours means I put very little thought into this one and just brute-forced it.  Still, it worked on the first try!  Not proud of it, but done.
