@@ -11,3 +11,5 @@ Day 3:  Converting character sequences to numbers, then manipulating those numbe
 Day 4:  4am after 15 hours of work and have to be back at work in eight hours means I put very little thought into this one and just brute-forced it.  Still, it worked on the first try!  Not proud of it, but done.
 
 Day 5:  Combining regex and sequences.  Cool stuff and more elegant (though likely not very efficient) than the previous brute-force work.  The two methods for today's parts could've been combined into a single function to prevent repeated code, but I split them out to be able to more easily return answers from each part independently.
+
+Day 6:  A surprisingly straight-forward solution to this one, and short.
