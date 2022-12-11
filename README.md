@@ -19,3 +19,7 @@ Day 6:  A surprisingly straight-forward solution to this one, and short.
 Day 7:  Ouch.  Recursions and summations and reverse propogation, oh my.  Learned some new stuff today (Tables, string scans).  Needed some help to get over a summation hurdle, so had to consult the experts over on the nim forums.  Way more difficult that day 6, though I think this could be much simpler.  This doesn't bode well...
 
 Day 8:  Not too bad, just iterating through a few sequences and using some basic algorithm functions.  Not very graceful, runs through a 100x100 forest in about 0.03 seconds, not including compilation time.
+
+Day 9:  Initially attacked this all wrong until I realized it was simple coordinate addition.  Handled a couple edge cases and done!
+
+Day 10:  Pretty straightforward: add and check position.  Rinse and repeat.
