@@ -23,3 +23,5 @@ Day 8:  Not too bad, just iterating through a few sequences and using some basic
 Day 9:  Initially attacked this all wrong until I realized it was simple coordinate addition.  Handled a couple edge cases and done!
 
 Day 10:  Pretty straightforward: add and check position.  Rinse and repeat.
+
+Day 11:  Mostly straightforward, but the drop in worry divisor in the second part threw me for a loop for a while.  Just needed a big number to divide everything by to prevent the integer overflow.
