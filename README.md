@@ -27,3 +27,5 @@ Day 10:  Pretty straightforward: add and check position.  Rinse and repeat.
 Day 11:  Mostly straightforward, but the drop in worry divisor in the second part threw me for a loop for a while.  Just needed a big number to divide everything by to prevent the integer overflow.
 
 Day 12:  Running behind!  Work and family commitments kept me away for a few days.  I learned of the whole Dijkstra algorithm, apparently after everyone else in the world.  Finding the distance up the hill was pretty straightforward once I figured out how to code the algorithm.  However, for the way down, instead of checking the shortest path for each available 'a', I reversed the algorithm and started from 'E' to find the closest 'a', making the process way faster.  Neat.
+
+Day 13: Still behind.  Tried to do this via npeg for a while with about 99% success, but it had a lot of trouble with recursion on empty lists list `[[[]]]`, so I moved over to json since the inputs all looks like arrays.  Pretty easy after that.  The final portion of the code with all the `foldl` was code I picked up elsewhere as I my mind isn't obtuse enough for that.
