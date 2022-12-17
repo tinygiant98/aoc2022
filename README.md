@@ -31,3 +31,5 @@ Day 12:  Running behind!  Work and family commitments kept me away for a few day
 Day 13: Still behind.  Tried to do this via npeg for a while with about 99% success, but it had a lot of trouble with recursion on empty lists list `[[[]]]`, so I moved over to json since the inputs all looks like arrays.  Pretty easy after that.  The final portion of the code with all the `foldl` was code I picked up elsewhere as I my mind isn't obtuse enough for that.
 
 Day 14:  This one was interesting.  It didn't have to be done with an actual grid of sequences, but I did it that way to visualize it when I was debugging.  I need to learn a bit more about sequence modification (`map`, etc.), but I did write my first effective iterator in this exercise, so there's that.
+
+Day 15:  Had to redo Part 2 because it was soooo sloooow.  Found some interesting ideas on the megathread and implemented one of them to drop the processing time from hours to milliseconds.  Lots of really smart people out there, apparently I'm not among them.
