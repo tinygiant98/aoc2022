@@ -1,4 +1,4 @@
-import strutils, strformat, streams, sequtils, npeg
+import strutils, streams, sequtils, npeg
 
 type
   Valve = tuple[valve: string, tunnels: seq[string], rate: int]
