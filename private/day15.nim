@@ -7,8 +7,7 @@ type
 var
   pairings: seq[Pairing]
 
-proc md(s, b: Point): int =
-  abs(s.x - b.x) + abs(s.y - b.y)
+proc md(s, b: Point): int = abs(s.x - b.x) + abs(s.y - b.y)
 
 proc inBounds(p, bounds: Point): bool =
   p.x in bounds[0]..bounds[1] and p.y in bounds[0]..bounds[1]
@@ -49,7 +48,6 @@ proc getTunerFrequency(bounds: Point = (0, 4_000_000)): int =
     for k in b:
       let point: Point = (floorDiv((k - j), 2), floorDiv((j + k), 2))
       if point.inBounds(bounds):
-        #points.add point
         if pairings.all(proc (x: Pairing): bool = md(x.s, point) > x.md):
           return point.x * 4_000_000 + point.y
 
