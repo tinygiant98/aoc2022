@@ -86,8 +86,3 @@ when isMainModule:
   let aa = valves.mapIt(it.valve).find("AA")
   echo "Part 1: ", getMaxPressure(@[aa], repeat('0', valves.len), @[30])
   echo "Part 2: ", getMaxPressure(@[aa,aa], repeat('0', valves.len), @[26,26], 2)
-
-# Maximum pressure release possible for two processors in 26 minutes  
-#echo "Part 2: ", maxPressureRelease(@[valveIds.find("AA"), 
-#  valveIds.find("AA")], repeat('0', valveIds.len()), @[26, 26], 2)
-
