@@ -40,6 +40,6 @@ Day 17:  Ugh.  No files.  Corrupted before I could finish part 2.  Might come ba
 
 Day 18:  Nice.  Pretty straightforward, especially Part 1.  Basic flood filling did the trick for Part 2.
 
-Day 19:  Still working... my brain hurts.
+Day 19:  Still working... my brain hurts.  (edit) So looks like this is just going to be a learning experiment for me.  I really had no idea how to approach this, though I understood it needed a DFS/BFS analysis to get it done.  I'm not quite there in nim, so the code for this day is not mine **at all**.  No star for me today, but keeping this here in case I need some learning later on.
 
-Day 20:  Nice break from the constant optimizing.  Pretty simple implementation of a circular buffer/array.
+Day 20:  Nice break from the constant optimizing (of which I am obviously not very good at).  Pretty simple implementation of a circular buffer/array.
