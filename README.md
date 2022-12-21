@@ -36,7 +36,7 @@ Day 15:  Had to redo Part 2 because it was soooo sloooow.  Found some interestin
 
 Day 16:  Oh, good lord.  I had no idea how to start (or finish) this one.  After a bit of research, I stumbled onto the floyd-warshall method for using matrix math to calculate the required distances to each valve, so building all the matrices was easy.  I had no idea where to go from there and after spending (wasting?) several hours trying to start a solution, I consulted the megathread and fully lifted the pressure calculation portion.  I realized that I'd reached a limitation on this puzzle, so I used it as a learning experience.  Also, forced the use of npeg to parse the input, which worked great.  Scanf has been working, but I wanted to try something different here.
 
-Day 17:  Ugh.  No files.  Corrupted before I could finish part 2.  Might come back to this.
+Day 17:  Ugh.  No files.  Corrupted before I could finish part 2.  Might come back to this.  (edit) Throwing up someone else's work here just to have a record for reference if I ever need it.  Part 1 is just Tetris, which was pretty easy.  Something happened with my files and corrupted my source code before I finished Part 2.  Only 1 star for me today because my Part 1 worked (on the first try!).  Part 2 was too demoralizing the first time for me to go back and re-attempt, so here's someone else's code for you too look at (note:  this code didn't work for my input, but was very close).
 
 Day 18:  Nice.  Pretty straightforward, especially Part 1.  Basic flood filling did the trick for Part 2.
 
